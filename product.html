@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicion.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>E-commerce</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="images/favicion.png" alt="Icone" class="bi me-2" width="40" height="32">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="product.html" class="nav-link px-2 text-white">Products</a></li>
+              <li><a href="cart.html" class="nav-link px-2 text-white">Cart</a></li>
+              <li><a href="about.html" class="nav-link px-2 text-white">About Us</a></li>
+              <li><a href="contact.html" class="nav-link px-2 text-white">Contact Us</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search here..." aria-label="Search" style="color: #fff;">
+            </form>
+    
+          </div>
+        </div>
+    </header>
+    <!--Main-->
+    <div class="container grid mb-3 mt-2">  
+      <div class="container grid mb-3 mt-2">  </div>
+        <div class="d-flex justify-content-end mb-3">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort By
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                  <li><a class="dropdown-item" href="#" id="sortLowHigh">Lowest to Highest Price</a></li>
+                  <li><a class="dropdown-item" href="#" id="sortHighLow">Highest to Lowest Price</a></li>
+                    <li><a class="dropdown-item" href="#" id="sortAZ">A-Z</a></li>
+                    <li><a class="dropdown-item" href="#" id="sortZA">Z-A</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    <div class="card border border-secondary rounded-lg shadow-sm">
+      <a href="https://cdn.videocardz.com/1/2024/09/HP-OMNIBOOK-14-FLIP-HERO.jpg" target="_blank">
+          <img class="card-img-top p-3 rounded-top" src="https://cdn.videocardz.com/1/2024/09/HP-OMNIBOOK-14-FLIP-HERO.jpg" alt="product image">
+      </a>
+      <div class="card-body px-4 pb-4">
+          <a href="#" class="text-decoration-none">
+              <h5 class="card-title text-dark fw-semibold">HP OmniBook Ultra 14</h5>
+          </a>
+          <div class="d-flex align-items-center mt-2 mb-3">
+              <span class="text-black px-2 py-1">The HP OmniBook Ultra 14 is a high-performance ultrabook featuring AMD Ryzen AI processors, up to 32GB RAM, and a 14-inch 2.2K touch display, delivering robust computing power in a sleek design.  </span>
+          </div>
+          <div class="d-flex align-items-center justify-content-between">
+              <span class="fs-4 fw-bold">$1,299.99</span>
+              <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+          </div>
+      </div>
+  </div>
+  <div class="card border border-secondary rounded-lg shadow-sm">
+    <a href="https://static.toiimg.com/thumb/msid-115484329,width-1280,height-720,imgsize-37672,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"  target="_blank">
+        <img class="card-img-top p-3 rounded-top" src="https://static.toiimg.com/thumb/msid-115484329,width-1280,height-720,imgsize-37672,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="product image">
+    </a>
+    <div class="card-body px-4 pb-4">
+        <a href="#" class="text-decoration-none">
+            <h5 class="card-title text-dark fw-semibold">Redmi A4 5G</h5>
+        </a>
+        <div class="d-flex align-items-center mt-2 mb-3">
+            <span class="text-black px-2 py-1">The latest Redmi A4 5G features a 6.88-inch display, Snapdragon 4s Gen 2 processor, 50MP rear camera, and 5,160mAh battery with 18W fast charging, running on HyperOS.</span>
+        </div>
+        <div class="d-flex align-items-center justify-content-between">
+            <span class="fs-4 fw-bold">$99.99</span>
+            <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+        </div>
+    </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://media.wired.com/photos/635af3bc3c668b3d581922c6/3:2/w_2400,h_1600,c_limit/iPad-Pro-2022-Gear.jpg"  target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://media.wired.com/photos/635af3bc3c668b3d581922c6/3:2/w_2400,h_1600,c_limit/iPad-Pro-2022-Gear.jpg" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">iPad Pro</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The iPad Pro, available in 11-inch and 13-inch sizes, is powered by the M4 chip for enhanced performance. It features an Ultra Retina XDR OLED display with vibrant colors and supports the Apple Pencil Pro and Magic Keyboard for improved productivity.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$1,199.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://cdn.mos.cms.futurecdn.net/f955WFp6kGXmYLHXwDYvRb.jpg"  target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://cdn.mos.cms.futurecdn.net/f955WFp6kGXmYLHXwDYvRb.jpg" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">AirPods Max</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">AirPods Max offers premium sound with Active Noise Cancellation, Spatial Audio, and up to 20 hours of battery life. It integrates seamlessly with Apple devices and supports USB-C charging.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$69.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://www.simplymac.com/wp-content/uploads/watch-series-10.png"  target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://www.simplymac.com/wp-content/uploads/watch-series-10.png" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">Apple Watch Series 10</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The Apple Watch Series 10 features the updated S10 SiP, delivering performance comparable to the Series 9 and Ultra 2's S9 chip.  It offers enhanced health tracking, including ECG and blood oxygen monitoring, and supports watchOS 11 for improved functionality.  </span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$399.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://techstore.co.in/cdn/shop/articles/Hp-Spectre-07.jpg?v=1487510918" target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://techstore.co.in/cdn/shop/articles/Hp-Spectre-07.jpg?v=1487510918" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">HP Spectre x360</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The HP Spectre x360 combines premium design with Intel Core i7 performance, up to 16GB RAM, and a 13.3-inch 4K display for a stunning visual experience.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$1,499.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://cdn-iibml.nitrocdn.com/mIsZFyqRlkiNfZRugfIBKtdyexDtafZx/assets/images/optimized/rev-91797e4/www.dealmonday.co.uk/image/cache/catalog/products_2023/samsung-a54-lime-9-800x800.png" target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://cdn-iibml.nitrocdn.com/mIsZFyqRlkiNfZRugfIBKtdyexDtafZx/assets/images/optimized/rev-91797e4/www.dealmonday.co.uk/image/cache/catalog/products_2023/samsung-a54-lime-9-800x800.png" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">Samsung Galaxy A54 5G</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The Samsung Galaxy A54 5G offers a 6.5-inch Super AMOLED display, Exynos 1380 chipset, 50MP camera, and 5,000mAh battery for a smooth, reliable performance.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$499.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://imageio.forbes.com/specials-images/imageserve/6371109bfbd221c601a8fb80/Microsoft-Surface-Pro-9/0x0.jpg?crop=1210,680,x5,y375,safe&height=399&width=711&fit=bounds" target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://imageio.forbes.com/specials-images/imageserve/6371109bfbd221c601a8fb80/Microsoft-Surface-Pro-9/0x0.jpg?crop=1210,680,x5,y375,safe&height=399&width=711&fit=bounds" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">Microsoft Surface Pro 9</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The Surface Pro 9 comes with the latest Intel Core i7 processor, a 13-inch PixelSense display, and up to 32GB RAM, ideal for work and play.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$1,299.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://static1.pocketnowimages.com/wordpress/wp-content/uploads/styles/xxlarge/public/2022-05/Featured%20Image%20Sony%20WH%201000%20XM5.jpg" target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://static1.pocketnowimages.com/wordpress/wp-content/uploads/styles/xxlarge/public/2022-05/Featured%20Image%20Sony%20WH%201000%20XM5.jpg" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">Sony WH-1000XM5</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The Sony WH-1000XM5 provides industry-leading noise cancellation, superior sound quality, and a 30-hour battery life for uninterrupted listening.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$349.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+<div class="card border border-secondary rounded-lg shadow-sm">
+  <a href="https://m.media-amazon.com/images/S/aplus-media-library-service-media/ba120512-beab-48ec-92be-e173aaf9c6ea.__CR0,0,600,450_PT0_SX600_V1___.jpg" target="_blank">
+      <img class="card-img-top p-3 rounded-top" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/ba120512-beab-48ec-92be-e173aaf9c6ea.__CR0,0,600,450_PT0_SX600_V1___.jpg" alt="product image">
+  </a>
+  <div class="card-body px-4 pb-4">
+      <a href="#" class="text-decoration-none">
+          <h5 class="card-title text-dark fw-semibold">Garmin Venu 3</h5>
+      </a>
+      <div class="d-flex align-items-center mt-2 mb-3">
+          <span class="text-black px-2 py-1">The Garmin Venu 3 offers GPS functionality, heart rate tracking, advanced sleep monitoring, and up to 7 days of battery life in a sleek design.</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+          <span class="fs-4 fw-bold">$399.99</span>
+          <a href="#" class="btn btn-primary btn-sm px-4">Add to cart</a>
+      </div>
+  </div>
+</div>
+</div>
+    <!--Footer-->
+    <footer class="d-flex flex-column flex-md-row flex-wrap justify-content-between align-items-center py-3 px-4 bg-dark text-white border-top">
+      <div class="col-md-4 d-flex align-items-center mb-3 mb-md-0">
+        <a href="index.html" class="text-white text-decoration-none me-3">
+          <img src="images/favicion.png" alt="Icon" width="30" height="30">
+        </a>
+        <span>&copy; 2024 EnsoTech Team</span>
+      </div>
+    
+      <ul class="nav col-md-4 justify-content-center list-unstyled d-flex mb-3 mb-md-0">
+        <li class="ms-3">
+          <a class="text-white" href="#" aria-label="Twitter">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#" aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#" aria-label="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    
+      <div class="col-md-4 text-center text-md-end">
+        <p class="mb-1"><i class="fa-solid fa-location-dot me-2"></i>Online Store</p>
+        <p class="mb-1"><i class="fa-solid fa-phone me-2"></i>+383 ## ### ###</p>
+        <p><i class="fas fa-envelope me-2"></i>EnsoTech@tech.com</p>
+      </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      document.getElementById("sortLowHigh").addEventListener("click", () => sortProducts("lowHigh"));
+      document.getElementById("sortHighLow").addEventListener("click", () => sortProducts("highLow"));
+      document.getElementById("sortAZ").addEventListener("click", () => sortProducts("az"));
+      document.getElementById("sortZA").addEventListener("click", () => sortProducts("za"));
+      
+      function sortProducts(order) {
+          const container = document.querySelector(".container.grid");
+          const cards = Array.from(container.querySelectorAll(".card"));
+          
+          const sorted = cards.sort((a, b) => {
+              const priceA = parseFloat(a.querySelector(".fs-4").textContent.replace("$", ""));
+              const priceB = parseFloat(b.querySelector(".fs-4").textContent.replace("$", ""));
+              const titleA = a.querySelector(".card-title").textContent.trim();
+              const titleB = b.querySelector(".card-title").textContent.trim();
+              
+              if (order === "lowHigh") return priceB - priceA;
+              if (order === "highLow") return priceA - priceB;
+              if (order === "az") return titleA.localeCompare(titleB);
+              if (order === "za") return titleB.localeCompare(titleA);
+          });
+      
+          sorted.forEach(card => container.appendChild(card));
+      }
+      </script>
+      
+</body>
+</html>
